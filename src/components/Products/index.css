@@ -1,0 +1,16 @@
+/* Write your CSS code here */
+.Products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.ProductsImg {
+  width: 250px;
+}
+
+@media screen and (max-width: 767px) {
+  .ProductsImg {
+    width: 150px;
+  }
+}
